@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    max-width: 100vw;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#header-main {
+    width: 100vw;
+    height: 360px;
+    background-image: url("https://i.ibb.co/LkwCWSL/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: 300;
+    color: white;
+    padding-top: 130px;
+    padding-left: 130px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px; 
+}
+
+nav a {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
